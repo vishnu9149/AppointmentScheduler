@@ -1,0 +1,45 @@
+<!-- res/layout/activity_onboarding.xml -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center"
+    android:background="#FFFFFF">
+
+    <ImageView
+        android:id="@+id/onboardingImage"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginBottom="16dp"
+        android:scaleType="centerCrop" />
+
+    <TextView
+        android:id="@+id/onboardingText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:layout_marginTop="24dp"
+        android:textColor="@android:color/black"
+        android:gravity="center"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/createdByText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:layout_marginTop="8dp"
+        android:textColor="@android:color/darker_gray"
+        android:gravity="center"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/getStartedButton"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginTop="32dp" />
+</LinearLayout>
